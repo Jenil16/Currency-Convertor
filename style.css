@@ -1,0 +1,123 @@
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #675AFE;
+}
+.wrapper{
+    background: #fff;
+    width: 370px;
+    border-radius: 7px;
+    padding: 30px;
+}
+
+.wrapper header{
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+}
+.wrapper form{
+    margin: 40px 0 20px 0;
+}
+
+form :where(input,select,button){
+    width : 100%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+form p{
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input{
+    border: 1px solid #999;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+form input:focus{
+    border-color: #675AFE;
+    border-width: 2px;
+}
+
+form .select{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.from .image-from{
+    display: flex;
+    align-items: center;
+    border: 1px soild red;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    /* background: red; */
+}
+.image-from img{
+    margin-right: 4px;
+}
+
+.from .image-from{
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+.to .image-to{
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+
+.to .image-to{
+    display: flex;
+    align-items: center;
+    border: 1px soild red;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    /* background: red; */
+}
+.image-to img{
+    margin-right: 4px;
+}
+
+.from img{
+    height: 15px;
+    width: 20px;
+}
+.to img{
+    height: 15px;
+    width: 20px;
+}
+
+.exchange-rate{
+    margin: 20px;
+    text-align: center;
+}
+.icon{
+    margin-top: 30px;
+    cursor: pointer;
+}
+form button{
+    height: 50px;
+    color: #fff;
+    background: #675AFE;
+    cursor: pointer;
+}
+
+form button:hover{
+    background: #675ADF;
+}
